@@ -98,15 +98,24 @@ header #title{
     text-align: center;
 }
 
-.coffee{
+.home .coffee{
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     gap: 10px;
 }
-
-.coffee h2{
+.home #welcome{
+    width: 100%;
+    display: flex;
+    grid-template-rows: auto;
+    font-family: 'TheSeasons';
+    font-size: 25px;
+    color:  #4c3d19;
+    text-align: center;
+    margin: 10px;
+}
+.home .coffee h2{
     font-family: 'TheSeasons';
     font-size: 100px;
     color:  #4c3d19;
@@ -114,8 +123,7 @@ header #title{
     margin: 10px;
     width: 100%;
 }
-
-.coffee ol{
+.home .coffee ol{
     overflow-y: auto;
     overflow-x: hidden;
     word-wrap: break-word;
@@ -127,8 +135,7 @@ header #title{
     padding-right: 20px;
     justify-content: center;
 }
-
-.coffee li{
+.home .coffee li{
     width: 100%;
     font-family: 'alcester';
     font-size: 50px;
@@ -140,14 +147,11 @@ header #title{
     border: 1px solid black;
     border-radius: 10px;
 }
-
-.coffee li+li{
+.home .coffee li+li{
     margin: 10px;
 }
-
-.coffee .definition{
+.home .coffee .definition{
     grid-column: 1/3;
-    font-family: 'alcester';
     font-size: 30px;
     font-family: 'TheSeasons';
     font-size: 30px;
@@ -157,18 +161,15 @@ header #title{
     padding: 10px;
     border-radius: 10px;
 }
-
-.coffee .definition .emphasis{
+.home .coffee .definition .emphasis{
     color: #889063;
 }
-
-.coffee img{
+.home .coffee img{
     grid-column: 1/3;
     object-fit: cover;
     width: 100%;
 }
-
-#orderCoffee{
+.home #orderCoffee{
     grid-column: 1/3;
     font-family: 'alcester';
     font-size: 40px;
@@ -180,13 +181,11 @@ header #title{
     padding: 5px;
     margin: 10px;
 }
-
-#bottomPage{
+.home #bottomPage{
     grid-column: 1/3;
     width: 100%;
 }
-
-#bottomPage a{
+.home #bottomPage a{
     grid-column: 1/3;
     font-family: 'alcester';
 }
