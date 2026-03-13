@@ -121,7 +121,7 @@ a[href="#bottomPage"]:hover{
     display: table;
 }
 /* Table Cells*/
-td {
+#coffee_choices td {
     padding: 10px 2px; 
     text-align: center;
     vertical-align: top;
@@ -196,18 +196,19 @@ h2 {
 /* When Clicking the Image */
 .coffeeImg:hover {
     transform: scale(1.1);
-    outline: 8px solid #DDE6D5;
+    outline: 2px solid #DDE6D5;
     z-index: 100;
 
 }
 /* Drink Names */
 .label {
    font-family: "TheSeasons", serif;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
    color: #4C583E;
-   text-align: justify;
+   text-align: center;
    font-variant: small-caps;
-   font-size: 12px;
+   font-size: 15px;
+   font-weight: bold;
 }
 
 /* Form Styling */
