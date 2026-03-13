@@ -46,6 +46,7 @@ Focus on applying proper CSS techniques such as:
   src: url("Fonts/TheSeasons.ttf");
 }
 
+/* Header Styling */
 
 header{
     background-color:white;
@@ -70,12 +71,13 @@ header #title{
 
 
 .navigation{
-    font-family: "Antic", sans-serif;
-    color:#DADED8;
-    text-decoration:none;
-    margin:0 25px;
-    font-size:18px;
-    transition: background-color 0.2s ease
+   font-family: "Antic", sans-serif;
+   color:#DADED8;
+   text-decoration:none;
+   margin:0 25px;
+   font-size:18px;
+   border-radius:10px;
+   transition: background-color 0.2s ease
 }
 
 
@@ -100,31 +102,16 @@ a[href="#title"], a[href="#bottomPage"]{
     color: #7A8450;
     text-decoration: underline;
     padding: 4px 8px;
-    border-radius: 4px;
+    border-radius:10px;
     transition: background-color 0.2s ease;
 }
-
 
 a[href="#title"]:hover,
 a[href="#bottomPage"]:hover{
     background-color: #F8EFDA;
 }
+
 /* melicor */
-.coffee form{
-    width:300px;
-    margin:40px auto;
-    padding:10px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    text-align: center;
-}
-
-
-.coffee form, .coffee label, .coffee input, .coffee select {
-   font-family: "Antic", sans-serif; 
-   font-size: 14px; 
-   color: #2C3424; 
-}
 /*Table Container*/
 #coffee_choices {
 
@@ -151,7 +138,7 @@ td, p, .coffeeTitle {
 #tagline{
    font-family: "Antic", sans-serif;
     color: #4C583E;
-    font-size: 11px;
+    font-size: 20px;
     font-style: italic;  
     white-space: nowrap;
     
@@ -173,6 +160,7 @@ h2 {
    letter-spacing: 10px;
    margin: 0;
 }
+
 /* Type of Drink */
 .coffeeTitle {
    font-family: "TheSeasons", serif;
@@ -184,11 +172,7 @@ h2 {
 
    text-align: center;       
 }
-/* Controls the Table Cellls */
-td {
-   padding: 5px;  
-   text-align: center;
-}
+
 /* Images */
 .coffeeImg {
     width: 170px;
@@ -223,6 +207,21 @@ td {
    font-size: 12px;
 }
 
+/* Form Styling */
+.coffee form{
+    width:300px;
+    margin:40px auto;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.coffee label, .coffee input, .coffee select {
+   font-family: "Antic", sans-serif; 
+   font-size: 14px; 
+   color: #2C3424; 
+}
+
 input, select {
     width:100%;
     padding:9px;
@@ -255,7 +254,6 @@ footer {
     border-top: 2px solid #354024;
 }
 
-
 footer #title{
     font-family: "TheSeasons", serif;
     font-size:30px;
@@ -267,6 +265,10 @@ footer #title{
     display: block;
 }
 
+footer .contacts {
+    margin: 10px 0;
+    font-size: 14px;
+}
 
 footer p {
     max-width: none !important; 
@@ -276,10 +278,7 @@ footer p {
 }
 
 
-footer .contacts {
-    margin: 10px 0;
-    font-size: 13px;
-}
+
 
 
 
