@@ -77,7 +77,11 @@ header #title{
     gap: 10px;
 }
 .coffee h2{
+<<<<<<< Updated upstream
     font-family: 'alcester';
+=======
+    font-family: 'TheSeasons';
+>>>>>>> Stashed changes
     font-size: 100px;
     color:  #4c3d19;
     text-align: center;
@@ -113,8 +117,14 @@ header #title{
 }
 .coffee .definition{
     grid-column: 1/3;
+<<<<<<< Updated upstream
     font-family: 'alcester';
     font-size: 30px;
+=======
+    font-family: 'TheSeasons';
+    font-size: 30px;
+    font-weight: bold;
+>>>>>>> Stashed changes
     color:  #4c3d19;
     background-color:  #cfbb99;
     padding: 10px;
