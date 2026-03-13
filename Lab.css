@@ -31,10 +31,6 @@ Focus on applying proper CSS techniques such as:
 
 */
 
-
-
-
-
 @font-face {
   font-family: "Antic";
   src: url("Fonts/Antic-Regular.ttf");
@@ -47,13 +43,11 @@ Focus on applying proper CSS techniques such as:
 }
 
 /* Header Styling */
-
 header{
     background-color:white;
     text-align:center;
     padding:35px;
 }
-
 
 header #title{
     font-family: "TheSeasons", serif;
@@ -62,13 +56,11 @@ header #title{
     margin:0;
 }
 
-
 .navBar{
     text-align:center;
     background-color:#4C583E;
     padding:8px;
 }
-
 
 .navigation{
    font-family: "Antic", sans-serif;
@@ -80,22 +72,20 @@ header #title{
    transition: background-color 0.2s ease
 }
 
-
 .navigation:hover{
     background-color: #2C3424;
 }
 
-
-.imgBanner{
-    width:100%;
-    height:auto;
+.imgBanner {
+   width: 100%;
+   height: 540px;
+   display: flex;
+   object-fit: cover;
 }
-
 
 #banner{
     margin-bottom:25px;
 }
-
 
 a[href="#title"], a[href="#bottomPage"]{
     font-family: "Antic", sans-serif;
@@ -111,34 +101,11 @@ a[href="#bottomPage"]:hover{
     background-color: #F8EFDA;
 }
 
-/* melicor */
-/*Table Container*/
-#coffee_choices .order{
-
-   width: auto;         
-    margin: 40px auto;       
-    border-collapse: collapse;
-    display: table;
-}
-/* Table Cells*/
-#coffee_choices td {
-    padding: 10px 2px; 
-    text-align: center;
-    vertical-align: top;
-}
-/*Text Wrapping & Width, ensures labels stay under images*/
-td, p, .coffeeTitle {
-    max-width: 177px;
-    word-wrap : break-word;
-    white-space: normal;
-    line-height: 1.4;
-    margin: 8px auto 0 auto;
-}
 /*The Tagline*/
 #tagline{
    font-family: "Antic", sans-serif;
     color: #4C583E;
-    font-size: 11px;
+    font-size: 20px;
     font-style: italic;  
     white-space: nowrap;
     
@@ -148,17 +115,42 @@ td, p, .coffeeTitle {
     text-align: center;    
     margin: 20px 0;
 }
+
 /* Menu Header */
 h2 {
    font-family: "TheSeasons", serif;
-   color: #4C583E;
+   font-weight: bold;
+   color: #3b4c28;
    text-align: center;
    font-size: 30px;
-   background-color: #DDE6D5; 
+   background-color: #8a977d; 
    padding: 20px 0;            
    text-transform: uppercase;
    letter-spacing: 10px;
    margin: 0;
+}
+
+/*Table Container*/
+#coffee_choices {
+    width: auto;         
+    margin: 40px auto;       
+    border-collapse: collapse;
+    display: table;
+}
+
+/* Table Cells*/
+#coffee_choices td {
+    padding: 10px 2px; 
+    text-align: center;
+    vertical-align: top;
+}
+/*Text Wrapping & Width, ensures labels stay under images*/
+#coffee_choices td, p, .coffeeTitle {
+    max-width: 177px;
+    word-wrap : break-word;
+    white-space: normal;
+    line-height: 1.4;
+    margin: 8px auto 0 auto;
 }
 
 /* Type of Drink */
@@ -169,8 +161,8 @@ h2 {
    background-color: #DDE6D5; 
    display: table-cell;
    max-width: none !important;
-    width: 100%;
-    text-align: center;
+   width: 100%;
+   text-align: center;
    padding: 5px 0;
    font-weight: bold;
    text-transform: uppercase;  
