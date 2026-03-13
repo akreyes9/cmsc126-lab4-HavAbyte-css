@@ -121,15 +121,15 @@ a[href="#bottomPage"]:hover{
 
 
 .coffee form, .coffee label, .coffee input, .coffee select {
-   font-family: "Antic", sans-serif; /* or any font you want */
-   font-size: 14px; /* adjust as needed */
-   color: #2C3424; /* optional: text color */
+   font-family: "Antic", sans-serif; 
+   font-size: 14px; 
+   color: #2C3424; 
 }
 /*Table Container*/
 #coffee_choices {
 
-   width: auto;           /* Let it shrink to fit the content */
-    margin: 40px auto;        /* The most important line for centering blocks */
+   width: auto;         
+    margin: 40px auto;       
     border-collapse: collapse;
     display: table;
 }
