@@ -145,7 +145,7 @@ h2 {
     vertical-align: top;
 }
 /*Text Wrapping & Width, ensures labels stay under images*/
-#coffee_choices td, p, .coffeeTitle {
+#coffee_choices td, .coffeeTitle {
     max-width: 177px;
     word-wrap : break-word;
     white-space: normal;
@@ -254,11 +254,7 @@ footer #title{
     font-family: "TheSeasons", serif;
     font-size:30px;
     color:#DADED8;
-    margin: 0 auto;
-    max-width: none;
-    width: 100%;
-    text-align: center;
-    display: block;
+    margin:0;
 }
 
 footer .contacts {
@@ -267,11 +263,10 @@ footer .contacts {
 }
 
 footer p {
-    max-width: none !important; 
-    width: 100%;               
     text-align: center;       
     margin: 10px 0;
 }
+
 
 
 
