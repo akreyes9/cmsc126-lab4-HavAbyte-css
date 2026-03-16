@@ -459,10 +459,11 @@ footer p {
 /*------- DEFINITION -------*/
 .about .coffee .definition {
    text-align: justify;
-   padding-left: 30px;
-   padding-right: 30px;
-   padding-bottom: 5px;
-   padding-top: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   overflow: auto;
 }
 
 .about .coffee .definition .emphasis {
@@ -470,12 +471,12 @@ footer p {
    font-weight: bold;
 }
 
-.about .coffee img {
-    justify-content: center;
+.about .coffee .definition + img {
     width: 200px;
-    height: auto;
-    display: block;
-    margin: auto;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left:50px;
 }
 
 .about .coffee .definition .term {
