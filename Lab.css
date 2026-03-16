@@ -382,14 +382,27 @@ footer p {
 
 /*------- BODY -------*/
 
+.about h2 {
+   font-family: "TheSeasons", serif;
+   color: #4C583E;
+   text-align: center;
+   font-size: 30px;
+   background-color: #DDE6D5; 
+   padding: 20px 0;            
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   margin: 0;
+}
+
+
 /*------- LOGO -------*/
 
 .about .coffee .imgBanner {
-   padding-top: 30px;
-   width: 100px;
-   height: auto;
-   display: block;
-   margin: auto;
+    padding-top: 30px;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .about #banner + .definition {
@@ -445,16 +458,27 @@ footer p {
 
 /*------- DEFINITION -------*/
 .about .coffee .definition {
+   font-family: "Antic", serif;
+   font-size: 18px;
    text-align: justify;
    padding-left: 60px;
    padding-right: 60px;
-   padding-bottom: 5px;
-   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-top: 10px;
+   overflow: auto;
 }
 
 .about .coffee .definition .emphasis {
    color: #4c3d19;
    font-weight: bold;
+}
+
+.about .coffee .definition + img {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-left:60px;
 }
 
 .about .coffee .definition .term {
