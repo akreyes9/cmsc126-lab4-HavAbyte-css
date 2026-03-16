@@ -358,9 +358,9 @@ footer p {
    font-family: "Antic", serif;
    font-size: 18px;
    text-align: justify;
-   padding-left: 50px;
-   padding-right: 50px;
-   padding-bottom: 10px;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-bottom: 15px;
    padding-top: 10px;
    overflow: auto;
 }
@@ -371,11 +371,11 @@ footer p {
 }
 
 .about .coffee .definition + img {
-    width: 200px;
+    width: 300px;
     float: left;
     margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left:50px;
+    margin-bottom: 30px;
+    margin-left:60px;
 }
 
 .about .coffee .definition .term {
