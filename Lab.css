@@ -295,7 +295,7 @@ footer p {
 /*------- LOGO -------*/
 
 .about .coffee .imgBanner {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 100px;
     height: auto;
     display: block;
@@ -304,11 +304,11 @@ footer p {
 
 .about #banner + .definition {
    text-align: center;
-   font-family: "Antic", serif;
+   font-family: "Antic", sans-serif;
    font-style:italic;
-   font-size: 18px;
+   font-size: 24px;
    color:#4C583E;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
 }
 
 /*------- COFFEE SONGS -------*/
@@ -342,20 +342,20 @@ footer p {
 }
 
 .about .coffee td {
-   padding: 5px 2px;
+   padding: 5px;
+   text-align: center;
    align-items: center;
 }
 
 .about .coffee .label {
     color: #4C583E;
     font-weight: bold;
-    text-align: center;
     font-size: 20px;
 }
 
 /*------- DEFINITION -------*/
 .about .coffee .definition {
-   font-family: "Antic", serif;
+   font-family: "Antic", sans-serif;
    font-size: 18px;
    text-align: justify;
    padding-left: 60px;
@@ -371,10 +371,10 @@ footer p {
 }
 
 .about .coffee .definition + img {
-    width: 300px;
+    width: 200px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin-right: 3px;
+    margin-bottom: 10px;
     margin-left:60px;
 }
 
