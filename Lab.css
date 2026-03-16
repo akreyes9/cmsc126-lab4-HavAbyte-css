@@ -295,11 +295,11 @@ footer p {
 /*------- LOGO -------*/
 
 .about .coffee .imgBanner {
-   padding-top: 30px;
-   width: 100px;
-   height: auto;
-   display: block;
-   margin: auto;
+    padding-top: 30px;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .about #banner + .definition {
@@ -355,6 +355,8 @@ footer p {
 
 /*------- DEFINITION -------*/
 .about .coffee .definition {
+   font-family: "Antic", serif;
+   font-size: 18px;
    text-align: justify;
    padding-left: 50px;
    padding-right: 50px;
