@@ -119,6 +119,7 @@ header #title{
     font-family: 'TheSeasons';
     font-size: 30px;
     color:  #4c3d19;
+    background-color: #8a977d;
     text-align: center;
     margin: 10px;
     width: 100%;
@@ -144,7 +145,7 @@ header #title{
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
-    justify-content: center;
+    text-align: left;
     margin: 10px;
 }
 
