@@ -238,14 +238,6 @@ a[href="#bottomPage"]:hover{
     text-align: center;
     vertical-align: top;
 }
-/*Text Wrapping & Width, ensures labels stay under images*/
-#coffee_choices td, .coffeeTitle {
-    max-width: 177px;
-    word-wrap : break-word;
-    white-space: normal;
-    line-height: 1.4;
-    margin: 8px auto 0 auto;
-}
 
 /* Type of Drink */
 .coffeeTitle {
