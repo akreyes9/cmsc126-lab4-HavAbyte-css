@@ -87,19 +87,6 @@ header #title{
    margin-bottom:25px;
 }
 
-a[href="#title"], a[href="#bottomPage"]{
-    font-family: "Antic", sans-serif;
-    color: #7A8450;
-    padding: 4px 8px;
-    border-radius:10px;
-    transition: background-color 0.2s ease;
-}
-
-a[href="#title"]:hover,
-a[href="#bottomPage"]:hover{
-    background-color: #F8EFDA;
-}
-
 .home {
     max-width: 100%;
     overflow-x: hidden;
@@ -139,7 +126,6 @@ a[href="#bottomPage"]:hover{
     width: 90%;
     height: 300px;
     margin: 0;
-    padding: 0;
     padding-right: 20px;
 }
 .home .coffee li{
@@ -166,7 +152,7 @@ a[href="#bottomPage"]:hover{
     padding: 20px;
     border-radius: 10px;
     line-height: 1.5;
-    margin: 15px 0px 15px 0px;
+    margin: 15px 70px 15px 0px;
    
 }
 .home .coffee .definition .emphasis{
@@ -189,6 +175,19 @@ a[href="#bottomPage"]:hover{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+}
+
+a[href="#title"], a[href="#bottomPage"]{
+    font-family: "Antic", sans-serif;
+    color: #7A8450;
+    padding: 4px 8px;
+    border-radius:10px;
+    transition: background-color 0.2s ease;
+}
+
+a[href="#title"]:hover,
+a[href="#bottomPage"]:hover{
+    background-color: #F8EFDA;
 }
 
 .home a[href="#title"], a[href="#bottomPage"]{
