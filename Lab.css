@@ -51,14 +51,13 @@ Focus on applying proper CSS techniques such as:
 header{
     background-color:white;
     text-align:center;
-    padding:35px;
 }
 
 header #title{
     font-family: "TheSeasons", serif;
     font-size:50px;
     color:#4C583E;
-    margin:0;
+    margin:40px;
 }
 
 .navBar{
