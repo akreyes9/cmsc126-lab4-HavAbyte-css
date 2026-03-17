@@ -85,10 +85,7 @@ header #title{
    height: 540px;
    display: flex;
    object-fit: cover;
-}
-
-#banner{
-    margin-bottom:25px;
+   margin-bottom:25px;
 }
 
 .home {
