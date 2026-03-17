@@ -83,7 +83,6 @@ header #title{
 .imgBanner {
    width: 100%;
    height: 540px;
-   display: flex;
    object-fit: cover;
    margin-bottom:25px;
 }
