@@ -193,7 +193,6 @@ header #title{
 a[href="#title"], a[href="#bottomPage"]{
     font-family: "Antic", sans-serif;
     color: #7A8450;
-    text-decoration: underline;
     padding: 4px 8px;
     border-radius:10px;
     transition: background-color 0.2s ease;
@@ -335,7 +334,6 @@ input, select {
 input[type="submit"]{
     background-color:#4C583E;
     color:white;
-    border:none;
     cursor:pointer;
 }
 
